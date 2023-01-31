@@ -1,0 +1,25 @@
+.card {
+  background-color: #212529;
+}
+.card-title {
+  color: #cacaca;
+}
+.card-text {
+  color: #cacaca;
+}
+.btn-primary {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  color: rgb(56, 56, 56);
+  border-radius: 30px;
+}
+:not(.btn-check) + .btn:active {
+  background-color: #ffc107;
+  border-color: none;
+}
+.btn-primary:hover {
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+  box-shadow: 1px 1px 15px 1px rgba(240, 255, 0, 0.3);
+  transition: 0, 5s;
+}

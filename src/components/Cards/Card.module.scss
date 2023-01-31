@@ -1,0 +1,30 @@
+.root {
+  max-width: 1920px;
+  background: #212529;
+  display: flex;
+  .title {
+    display: grid;
+    place-content: center;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+  }
+  h3 {
+    color: rgb(230, 230, 230);
+    margin-top: 30px;
+  }
+  .coffee__cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .coffee__cards {
+      display: grid;
+      place-content: center;
+    }
+    h3{
+        margin-left: 100px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.navbar-dark {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  .container {
+    z-index: 2;
+  }
+}

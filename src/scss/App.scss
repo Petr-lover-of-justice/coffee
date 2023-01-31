@@ -1,0 +1,31 @@
+@import "../scss/components/header.scss";
+@import "../scss/components/navbar.scss";
+@import "../scss/components/cards.scss";
+@import "../scss/components/type-coffee.scss";
+@import "../scss/components/variable.scss";
+@import "../scss/components/book-mark.scss";
+@import "../scss/components/footer.scss";
+
+* {
+  font-family: "Roboto";
+}
+body {
+  background: #212529;
+  width: 100%;
+}
+h3 {
+  color: rgb(230, 230, 230);
+  margin-top: 40px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100vw;
+  }
+}

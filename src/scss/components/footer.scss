@@ -1,0 +1,32 @@
+strong {
+  font-weight: 700;
+}
+
+footer {
+  display: table;
+  margin-top: 20vh;
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: 0.025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #ffc107;
+  transition: color 0.15s ease-in-out;
+}
