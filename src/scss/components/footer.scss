@@ -1,3 +1,4 @@
+@import "./variable.scss";
 strong {
   font-weight: 700;
 }
@@ -13,7 +14,7 @@ footer {
 }
 
 footer small {
-  color: #ccc;
+  color: $gray;
   letter-spacing: 0.025rem;
   margin-bottom: 1.5rem;
   display: block;
@@ -27,6 +28,6 @@ footer small {
 }
 
 .footer-nav a:hover {
-  color: #ffc107;
+  color: $vivid-orange;
   transition: color 0.15s ease-in-out;
 }

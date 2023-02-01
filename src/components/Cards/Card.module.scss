@@ -1,12 +1,16 @@
+@import "..//../scss/components/variable.scss";
+
 .root {
+  display: flex;
   max-width: 1920px;
   background: #212529;
-  display: flex;
+  margin-top: 40px;
   .title {
     display: grid;
     place-content: center;
-    color: rgb(230, 230, 230);
+    color: $vivid-orange;
     margin-top: 10px;
+    white-space: "nowrap";
   }
   h3 {
     color: rgb(230, 230, 230);
@@ -23,8 +27,8 @@
       display: grid;
       place-content: center;
     }
-    h3{
-        margin-left: 100px;
+    h3 {
+      margin-left: 100px;
     }
   }
 }

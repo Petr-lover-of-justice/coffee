@@ -1,3 +1,4 @@
+@import "./variable.scss";
 header {
   height: 90vh;
   position: relative;
@@ -9,9 +10,9 @@ header {
   top: 80vh;
 }
 .navbar-dark {
-  color: #ffc107;
-  border-bottom: 1px solid #ffc107;
-  box-shadow: 0px 1px 2px 0px #ffc107;
+  color: $vivid-orange;
+  border-bottom: 1px solid $vivid-orange;
+  box-shadow: 0px 1px 2px 0px $vivid-orange;
 }
 .carousel-control-next,
 .carousel-control-prev {

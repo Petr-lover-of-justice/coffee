@@ -1,3 +1,4 @@
+@import "./variable.scss";
 .type-coffee {
   position: relative;
   height: 300px;
@@ -34,10 +35,10 @@
   margin-left: 90px;
   border-radius: 20px;
   border: none;
-  background: #ccc;
+  background: $gray;
 }
 .type-coffee__btn:hover {
-  background-color: #ffc107;
+  background-color: $vivid-orange;
   box-shadow: 1px 1px 15px 1px rgba(240, 255, 0, 0.3);
   transition: 0, 6s;
 }
@@ -58,7 +59,7 @@
   top: 70%;
   height: 30%;
   width: 100%;
-  color: #ccc;
+  color: $gray;
   background: #3c302f;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -71,7 +72,7 @@
   top: 0px;
   height: 80%;
   width: 100%;
-  color: rgb(56, 56, 56);
+  color: $gray(56, 56, 56);
   background: #b1dce2;
   transition: 1s;
 }
@@ -132,7 +133,7 @@
   }
 }
 .active-Type__Btn {
-  background-color: #ffc107;
+  background-color: $vivid-orange;
 }
 @media (max-width: 900px) {
   .type-coffee__btn {

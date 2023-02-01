@@ -1,18 +1,18 @@
+@import "./variable.scss";
 .book-mark {
   margin-top: 100px;
   min-height: 300px;
 }
 .book-mark__text {
-  color: #cacaca;
+  color: $gray;
   padding-left: 20px;
 }
 .nav-link {
-  color: #cacaca;
+  color: $gray;
 }
 .nav-link:hover {
-  color: #ffc107;
+  color: $vivid-orange;
 }
 .nav-tabs .nav-link.active {
-  background: #ffc107;
+  background: $vivid-orange;
 }
-

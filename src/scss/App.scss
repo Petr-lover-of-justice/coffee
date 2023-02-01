@@ -10,12 +10,12 @@
   font-family: "Roboto";
 }
 body {
-  background: #212529;
+  background: $backdrop;
   width: 100%;
 }
 h3 {
   color: rgb(230, 230, 230);
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .container {
   margin-right: auto;
@@ -27,5 +27,6 @@ h3 {
     margin-right: 0;
     margin-left: 0;
     width: 100vw;
+    padding: 5 10px;
   }
 }

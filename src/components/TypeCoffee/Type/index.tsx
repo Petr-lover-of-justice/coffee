@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const Type: React.FC<any> = (typeAction) => {
+type propTypes = {
+    typeAction: number
+}
+export const Type: React.FC<propTypes> = (typeAction) => {
     let state = () => {
         if (typeAction.typeAction === 0) {
             return (

@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Header />
-   <Cards />
-     <TypeCoffee />
-       <BookMark />
+      <Cards />
+      <TypeCoffee />
+      <BookMark />
       <Footer />
     </div>
   );
